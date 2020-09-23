@@ -1,0 +1,4 @@
+node_modules
+.env
+shopify.js
+backend/routes/fetch-shopify.js

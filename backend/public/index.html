@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=|, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        fetch('https://6ad4676e82f4c73930e19ec5d69005fe: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@danny-vic.myshopify.com/admin/api/2020-07/inventory_levels.json?inventory_item_ids=37357829783719')
+            .then((res)=>{
+                return res.json();
+            })
+            .then((json)=>{
+                console.log(json)
+            })
+    </script>
+</body>
+</html>

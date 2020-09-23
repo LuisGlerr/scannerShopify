@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: rgb(45,156,195);
+    background: linear-gradient(90deg, rgba(45,156,195,1) 0%, rgba(88,88,223,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    width: 95%;
+    height: 20vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 95%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+}
+
+.form-inventory {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 80%;
+    width: 95%;
+    margin: auto auto;
+    border-radius: 2rem;
+    padding: 2rem;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .form-inventory {
+        width: 40rem;
+    }
+}
+
+.form-inventory input {
+    margin-top: 2rem;
+    background: lightgray;
+    border-radius: 5rem;
+    height: 4rem;
+    padding: 0 1rem;
+    border: none;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#modal-form {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.842);
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-form.active {
+    display: flex;
+}
+
+.form-edit {
+    background: white;
+    height: 80%;
+    width: 95%;
+    margin: auto auto;
+    border-radius: 2rem;
+    padding: 2rem;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .form-edit {
+        width: 40rem;
+    }
+}
+
+
+.form-edit input {
+    margin-top: 2rem;
+    background: lightgray;
+    border-radius: 5rem;
+    height: 4rem;
+    padding: 0 1rem;
+    border: none;
+}
+
+.form-container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container-flex .btn {
+    background-color: cornflowerblue;
+    border: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+
+.form-container-flex .invisible{
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.botonera {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.botonera input{
+    width: 30%;
+    text-align: center;
+}
+
+.cancel {
+    background-color: rgb(196, 21, 21);
+    border: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+
+.redClass {
+    color: red;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 2px solid red;
+}
+
+.greenClass {
+    color: green;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid green; 
+}
